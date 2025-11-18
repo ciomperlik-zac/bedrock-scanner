@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "bedrock-scanner",
+	"version": "${version}",
+	"name": "Bedrock Scanner",
+	"description": "Automatically scans bedrock for use with 19MisterX98's seed cracker.",
+	"authors": [
+		"NunYaBiz_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bedrock-scanner/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.nunyabiz_.bedrockscanner.BedrockScanner"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.17.3",
+      "minecraft": ">=1.20.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
