@@ -7,9 +7,5 @@ This mod **exports bedrock data to a file** that can be used with [Nether_Bedroc
 ## Usage
 
 /bedrockscan <size>
-- `<size>` specifies the scan radius.
+- `<size>` specifies the scan size.
 - The command scans the top and bottom layers of bedrock around the player and writes the positions to a file in the `bedrockscanner` folder.
-
-Example:
-/bedrockscan 32
-This will scan a 32×32 area around your player and generate the output file for use with the seed cracker.
