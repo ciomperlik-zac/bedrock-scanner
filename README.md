@@ -1,6 +1,6 @@
 # bedrock-scanner
 
-This mod **exports bedrock data to a file** that can be used with [Nether_Bedrock_Cracker](https://github.com/19MisterX98/Nether_Bedrock_Cracker) to assist in seed cracking.
+This mod **exports bedrock data to a file** that can be used with 19MisterX98's [Nether_Bedrock_Cracker](https://github.com/19MisterX98/Nether_Bedrock_Cracker) to assist in seed cracking.
 
 ## Usage
 
