@@ -4,6 +4,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.LevelResource;
+import net.fabricmc.loader.api.FabricLoader;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -12,7 +13,8 @@ import java.nio.file.Path;
 
 public class Scanner {
     public static Path getSavePath() {
-        Path base = Path.of("bedrockscanner");
+        // Fix bedrockscanner tidak membuat folder
+        Path base = FabricLoader.getInstance().getConfigDir().resolve("bedrockscanner");
 
         Minecraft mc = Minecraft.getInstance();
 
