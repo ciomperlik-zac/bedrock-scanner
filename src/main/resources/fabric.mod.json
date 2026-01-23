@@ -8,8 +8,8 @@
 		"NunYaBiz_"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/ciomperlik-zac",
+		"sources": "https://github.com/ciomperlik-zac/bedrock-scanner"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/bedrock-scanner/icon.png",
